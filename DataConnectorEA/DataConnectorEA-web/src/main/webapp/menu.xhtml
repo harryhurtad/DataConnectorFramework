@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <ui:composition>  
+        <h:form>
+        <p:menubar>
+            <p:submenu label="Carga Simple">
+                <p:menuitem action="#{simpleThreadManageBean.excecuteSingleThreadStatement()}" value="Ejecutar Single Thread"/>
+
+            </p:submenu>
+               <p:submenu label="Carga MultiHilo" >
+                   <p:menuitem action="#{simpleThreadManageBean.excecuteMultiThreadStatement()}" value="Ejecutar Multi Hilo"/>
+            </p:submenu>
+             
+             
+        </p:menubar>
+        </h:form>
+    </ui:composition>
+</html>
