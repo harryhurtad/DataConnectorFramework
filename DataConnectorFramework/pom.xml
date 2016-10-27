@@ -10,6 +10,7 @@
         <module>../DataConnector_lib</module>
         <module>../DataConnectorMetaDataModel</module>
         <module>../DataConnectorProvider</module>
+        <module>../DataConnector_mvc</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
